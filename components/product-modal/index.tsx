@@ -62,7 +62,7 @@ const ProductModal: React.FC<IProps> = (props) => {
               source={{ uri: item?.image }}
               resizeMethod="auto"
               resizeMode="cover"
-              style={{ width: 100, height: 120, borderRadius: 5 }}
+              style={{ width: 180, height: 220, borderRadius: 5 }}
             />
           </View>
           <View
@@ -87,7 +87,6 @@ const ProductModal: React.FC<IProps> = (props) => {
             style={{
               flexDirection: "row",
               alignItems: "center",
-              justifyContent: "space-between",
               marginTop: 15,
             }}
           >
@@ -98,7 +97,7 @@ const ProductModal: React.FC<IProps> = (props) => {
                 backgroundColor: "red",
                 alignItems: 'center',
                 paddingVertical: 15,
-                paddingHorizontal: 60,
+                paddingHorizontal: 30,
                 borderRadius: 10,
               }}
             >

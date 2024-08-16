@@ -43,7 +43,7 @@ const ProductCard: React.FC<ProductItem> = ({
       style={{
         borderWidth: 2,
         borderRadius: 16,
-        padding: 20,
+        padding: 10,
         flex: 1,
         flexDirection: "row",
         justifyContent: "space-between",
@@ -60,7 +60,7 @@ const ProductCard: React.FC<ProductItem> = ({
       <View
         style={{
           width: 100,
-          height: 140,
+          height: isCartModal ? 140 : 120,
           backgroundColor: "lightgray",
           borderRadius: 5,
         }}
@@ -69,10 +69,10 @@ const ProductCard: React.FC<ProductItem> = ({
           source={{ uri: image }}
           resizeMethod="auto"
           resizeMode="cover"
-          style={{ width: 100, height: 140, borderRadius: 5 }}
+          style={{ width: 100, height: isCartModal ? 140 : 120, borderRadius: 5 }}
         />
       </View>
-      <View style={{ width: 220, height: 120, marginLeft: 10 }}>
+      <View style={{ width: 200, height: 120, marginLeft: 10 }}>
         <Text size={16} fontWeight="medium" lineBreakMode="tail" numberOfLines={2}>
           {title}
         </Text>
@@ -141,7 +141,7 @@ const ProductCard: React.FC<ProductItem> = ({
             </View>
           )}
         </View>
-        {!isCartModal && <Text size={16} color="darkgray">{`Catergory: ${category}`}</Text>}
+        {!isCartModal && <Text size={16} color="darkgray">{`Category: ${category}`}</Text>}
         {isCartModal && (
           <Button
             onPress={handleRemoveCartProduct}

@@ -83,7 +83,7 @@ const index = () => {
               />
               <Text
                 style={{
-                  top: -8,
+                  top: -4,
                   right: 26,
                   position: "absolute",
                   color: 'red',
@@ -101,7 +101,7 @@ const index = () => {
               }}
             >
               <Text
-                size={20}
+                size={18}
                 fontWeight="bold"
               >{`Rs. ${totalPrice}`}</Text>
             </View>
