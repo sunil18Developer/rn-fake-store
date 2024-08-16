@@ -1,4 +1,9 @@
-# Welcome to your Expo app 👋
+# Welcome to your FAKE-STORE Expo app 👋
+![Screenshot_1723814108](https://github.com/user-attachments/assets/fcafaf44-da78-4f34-beef-37e9c813fe76)
+![Screenshot_1723814119](https://github.com/user-attachments/assets/073b4ce6-18f5-4aae-b136-4d27ed49f7cc)
+![Screenshot_1723814126](https://github.com/user-attachments/assets/62d2c7f4-76e0-4a77-b5af-f56bea411885)
+
+
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
